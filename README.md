@@ -30,5 +30,6 @@ This project is open to anyone who wishes to learn more about fintech developmen
 I invite you to explore the code, test the application, and share your ideas for improvements or new functionalities. If you are new to fintech development or any of the technologies used, consider this project as an ideal starting point for your learning and experimentation.
 
 Thank you for visiting and contributing to this project!
+![Diseño sin título](https://github.com/ronnycontento95/fintech/assets/71358808/9e651592-df30-40c6-8dc7-d5eda90e748d)
 
 https://imgur.com/zaUKOHh
