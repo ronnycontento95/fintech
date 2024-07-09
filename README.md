@@ -31,4 +31,4 @@ I invite you to explore the code, test the application, and share your ideas for
 
 Thank you for visiting and contributing to this project!
 
-![Diseño sin título.png](..%2F..%2F..%2FDownloads%2FDise%C3%B1o%20sin%20t%C3%ADtulo.png)
+https://imgur.com/zaUKOHh
