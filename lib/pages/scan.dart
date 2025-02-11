@@ -2,10 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:scan/scan.dart';
 
-import '../generated/l10n.dart';
 
 class ScanPage extends StatefulWidget {
-  ScanPage({super.key});
+  const ScanPage({super.key});
 
   @override
   State<ScanPage> createState() => _ScanPageState();
@@ -13,7 +12,7 @@ class ScanPage extends StatefulWidget {
 
 class _ScanPageState extends State<ScanPage> {
   ScanController controller = ScanController();
-  String _platformVersion = 'Unknown';
+  String platformVersion = 'Unknown';
 
   @override
   void initState() {
@@ -32,7 +31,7 @@ class _ScanPageState extends State<ScanPage> {
     if (!mounted) return;
 
     setState(() {
-      _platformVersion = platformVersion;
+      platformVersion = platformVersion;
     });
   }
 
@@ -47,7 +46,7 @@ class _ScanPageState extends State<ScanPage> {
           builder: (BuildContext context) {
             return Scaffold(
               appBar: AppBar(
-                title: Text('scan result'),
+                title: const Text('scan result'),
               ),
               body: Center(
                 child: Text(data),

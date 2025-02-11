@@ -71,15 +71,15 @@ class CreditCard extends StatelessWidget {
                         Row(
                           mainAxisAlignment: MainAxisAlignment.start,
                           children: [
-                            CircleAvatar(
+                            const CircleAvatar(
                               radius: 15,
-                              backgroundColor: Colors.white.withOpacity(0.8),
+                              backgroundColor: Colors.white,
                             ),
                             Transform.translate(
                               offset: const Offset(-10, 0),
-                              child: CircleAvatar(
+                              child: const CircleAvatar(
                                 radius: 15,
-                                backgroundColor: Colors.white.withOpacity(0.8),
+                                backgroundColor: Colors.white,
                               ),
                             )
                           ],

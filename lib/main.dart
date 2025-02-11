@@ -61,7 +61,7 @@ class _MainPageState extends State<MainPage> {
   final List<Widget> pages = [
     const Home(),
     const MyCardPage(),
-    ScanPage(),
+    const ScanPage(),
     const ActivityPage(),
     const ProfilePage()
   ];

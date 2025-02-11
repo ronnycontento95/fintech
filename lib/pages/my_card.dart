@@ -1,4 +1,3 @@
-import 'package:fintech_ui_tutorial/widgets/credit_card.dart';
 import 'package:flutter/material.dart';
 
 import '../generated/l10n.dart';
@@ -142,15 +141,15 @@ class FrontCard extends StatelessWidget {
                         Row(
                           mainAxisAlignment: MainAxisAlignment.start,
                           children: [
-                            CircleAvatar(
+                            const CircleAvatar(
                               radius: 15,
-                              backgroundColor: Colors.white.withOpacity(0.8),
+                              backgroundColor: Colors.white,
                             ),
                             Transform.translate(
                               offset: const Offset(-10, 0),
-                              child: CircleAvatar(
+                              child: const CircleAvatar(
                                 radius: 15,
-                                backgroundColor: Colors.white.withOpacity(0.8),
+                                backgroundColor: Colors.white,
                               ),
                             )
                           ],
@@ -199,15 +198,15 @@ class BackCard extends StatelessWidget {
                     Row(
                       mainAxisAlignment: MainAxisAlignment.start,
                       children: [
-                        CircleAvatar(
+                        const CircleAvatar(
                           radius: 15,
-                          backgroundColor: Colors.white.withOpacity(0.8),
+                          backgroundColor: Colors.white,
                         ),
                         Transform.translate(
                           offset: const Offset(-10, 0),
-                          child: CircleAvatar(
+                          child: const CircleAvatar(
                             radius: 15,
-                            backgroundColor: Colors.white.withOpacity(0.8),
+                            backgroundColor: Colors.white,
                           ),
                         )
                       ],
