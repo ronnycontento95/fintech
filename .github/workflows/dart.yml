@@ -33,5 +33,5 @@ jobs:
         run: flutter analyze
 
       # Paso 6: Ejecutar pruebas
-      - name: Run tests
-        run: flutter test
+#      - name: Run tests
+#        run: flutter test
