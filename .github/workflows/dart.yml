@@ -18,7 +18,7 @@ jobs:
       - name: Install Flutter
         uses: subosito/flutter-action@v2
         with:
-          flutter-version: '3.13.0'  # Especifica una versión concreta de Flutter
+          flutter-version: '3.27.4'  # Especifica una versión concreta de Flutter
 
       # Paso 3: Verificar la instalación de Flutter
       - name: Verify Flutter installation
